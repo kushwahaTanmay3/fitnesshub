@@ -4,7 +4,7 @@ import {motion} from 'motion/react'
 
 const Hero = () => {
   return (
-<div id='home' className=' font-Anton w-full h-auto pt-30 pb-10 max-sm:pb-20 max-sm:pl-2 px-20 bg-[#ff6b35] flex gap-10 max-sm:gap-2  '>
+<div id='home' className=' font-Anton w-full h-auto pt-30 pb-10 max-sm:pb-20 max-sm:pl-2 px-20 bg-[#ff6b35] flex  max-sm:flex-col gap-10 max-sm:gap-2  '>
   <motion.img
    initial={{opacity:0,y:20}}
    whileInView={{opacity:1,y:0}}
