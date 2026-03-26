@@ -48,7 +48,7 @@ const servicesData = [
   return (
     <div id='services' className='bg-gray-950 pt-3 pb-10'>
       <Head first={'Our'} second={'Services'}/>
-     <div className='mx-20 sm:mx-50 pt-10 grid sm:grid-rows-2 gap-10  grid-cols-1 sm:grid-cols-3 '>
+     <div className='max-sm:flex max-sm:flex-col max-sm:items-center max-sm:7  mx-20 sm:mx-50 pt-10 grid sm:grid-rows-2 gap-10  grid-cols-1 sm:grid-cols-3 '>
       {
         servicesData.map((service)=>(
          <ServiceCard title={service.title} details={service.description} img={service.image} />
