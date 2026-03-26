@@ -10,7 +10,7 @@ const Hero = () => {
    whileInView={{opacity:1,y:0}}
    transition={{duration:0.5,delay:0.7}}
    viewport={{once:true}}
-   src={img} className='max-sm:w-100 max-sm:h-95  w-180  rounded-xl' />
+   src={img} className='max-sm:w-120 max-sm:h-95  w-180  rounded-xl' />
   <motion.div
    initial={{opacity:0,x:20}}
    whileInView={{opacity:1,x:0}}
